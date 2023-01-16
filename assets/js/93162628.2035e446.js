@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrh_ocp=self.webpackChunkrh_ocp||[]).push([[1625],{673:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/rh-ocp/blog/tags/docusaurus","allTagsPath":"/rh-ocp/blog/tags","count":4}')}}]);

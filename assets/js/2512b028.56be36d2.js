@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrh_ocp=self.webpackChunkrh_ocp||[]).push([[1608],{712:a=>{a.exports=JSON.parse('{"label":"hola","permalink":"/rh-ocp/blog/tags/hola","allTagsPath":"/rh-ocp/blog/tags","count":1}')}}]);
