@@ -32,10 +32,6 @@ export default {
           "sidebarPath": "/Users/lakshmi/Documents/GitHub/rh-ocp/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
-        "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
-        },
         "theme": {
           "customCss": "/Users/lakshmi/Documents/GitHub/rh-ocp/src/css/custom.css"
         }
