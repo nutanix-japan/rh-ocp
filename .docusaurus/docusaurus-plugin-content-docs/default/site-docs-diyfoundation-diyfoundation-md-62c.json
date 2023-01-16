@@ -6,7 +6,7 @@
   "source": "@site/docs/diyfoundation/diyfoundation.md",
   "sourceDirName": "diyfoundation",
   "slug": "/diyfoundation/",
-  "permalink": "/diyfoundation/",
+  "permalink": "/rh-ocp/diyfoundation/",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/diyfoundation/diyfoundation.md",
   "tags": [],
@@ -22,10 +22,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Getting Started",
-    "permalink": "/"
+    "permalink": "/rh-ocp/"
   },
   "next": {
     "title": "PC Deployment",
-    "permalink": "/pcdeploy/"
+    "permalink": "/rh-ocp/pcdeploy/"
   }
 }

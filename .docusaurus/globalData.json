@@ -1,72 +1,72 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/",
+      "path": "/rh-ocp/",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/",
+          "path": "/rh-ocp/",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "diyfoundation/diyfoundation",
-              "path": "/diyfoundation/",
+              "path": "/rh-ocp/diyfoundation/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
-              "path": "/",
+              "path": "/rh-ocp/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "ocp_ipi_install/ocp_ipi_config_file",
-              "path": "/ocp_ipi_install/ocp_ipi_config_file",
+              "path": "/rh-ocp/ocp_ipi_install/ocp_ipi_config_file",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "ocp_ipi_install/ocp_ipi_install",
-              "path": "/ocp_ipi_install/"
+              "path": "/rh-ocp/ocp_ipi_install/"
             },
             {
               "id": "ocp_ipi_install/ocp_ipi_install_cleanup",
-              "path": "/ocp_ipi_install/ocp_ipi_install_cleanup",
+              "path": "/rh-ocp/ocp_ipi_install/ocp_ipi_install_cleanup",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "ocp_ipi_install/ocp_ipi_intro",
-              "path": "/ocp_ipi_install/ocp_ipi_intro",
+              "path": "/rh-ocp/ocp_ipi_install/ocp_ipi_intro",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "ocp_ipi_install/ocp_ipi_pre_reqs",
-              "path": "/ocp_ipi_install/ocp_ipi_pre_reqs",
+              "path": "/rh-ocp/ocp_ipi_install/ocp_ipi_pre_reqs",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "ocp_ndb/ocp_ndb",
-              "path": "/ocp_ndb/",
+              "path": "/rh-ocp/ocp_ndb/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "ocp_ntnx_hci/ocp_csi",
-              "path": "/ocp_ntnx_hci/ocp_csi",
+              "path": "/rh-ocp/ocp_ntnx_hci/ocp_csi",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "pcdeploy/pcdeploy",
-              "path": "/pcdeploy/",
+              "path": "/rh-ocp/pcdeploy/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "toolsvms/linux_tools_vm",
-              "path": "/toolsvms/linux_tools_vm",
+              "path": "/rh-ocp/toolsvms/linux_tools_vm",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "toolsvms/windows_tools_vm",
-              "path": "/toolsvms/windows_tools_vm",
+              "path": "/rh-ocp/toolsvms/windows_tools_vm",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -74,7 +74,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/",
+                "path": "/rh-ocp/",
                 "label": "intro"
               }
             }

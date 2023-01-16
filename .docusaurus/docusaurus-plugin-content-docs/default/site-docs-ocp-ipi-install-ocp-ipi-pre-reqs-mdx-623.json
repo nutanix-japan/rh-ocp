@@ -6,7 +6,7 @@
   "source": "@site/docs/ocp_ipi_install/ocp_ipi_pre_reqs.mdx",
   "sourceDirName": "ocp_ipi_install",
   "slug": "/ocp_ipi_install/ocp_ipi_pre_reqs",
-  "permalink": "/ocp_ipi_install/ocp_ipi_pre_reqs",
+  "permalink": "/rh-ocp/ocp_ipi_install/ocp_ipi_pre_reqs",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ocp_ipi_install/ocp_ipi_pre_reqs.mdx",
   "tags": [],
@@ -20,10 +20,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Introduction",
-    "permalink": "/ocp_ipi_install/ocp_ipi_intro"
+    "permalink": "/rh-ocp/ocp_ipi_install/ocp_ipi_intro"
   },
   "next": {
     "title": "Create Configuration Manifests",
-    "permalink": "/ocp_ipi_install/ocp_ipi_config_file"
+    "permalink": "/rh-ocp/ocp_ipi_install/ocp_ipi_config_file"
   }
 }

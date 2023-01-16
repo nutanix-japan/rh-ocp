@@ -6,7 +6,7 @@
   "source": "@site/docs/toolsvms/linux_tools_vm.mdx",
   "sourceDirName": "toolsvms",
   "slug": "/toolsvms/linux_tools_vm",
-  "permalink": "/toolsvms/linux_tools_vm",
+  "permalink": "/rh-ocp/toolsvms/linux_tools_vm",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/toolsvms/linux_tools_vm.mdx",
   "tags": [],
@@ -22,10 +22,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "OCP and Nutanix NDB",
-    "permalink": "/ocp_ndb/"
+    "permalink": "/rh-ocp/ocp_ndb/"
   },
   "next": {
     "title": "Windows Tools VM",
-    "permalink": "/toolsvms/windows_tools_vm"
+    "permalink": "/rh-ocp/toolsvms/windows_tools_vm"
   }
 }

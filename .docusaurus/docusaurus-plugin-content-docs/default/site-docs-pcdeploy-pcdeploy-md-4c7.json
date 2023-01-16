@@ -6,7 +6,7 @@
   "source": "@site/docs/pcdeploy/pcdeploy.md",
   "sourceDirName": "pcdeploy",
   "slug": "/pcdeploy/",
-  "permalink": "/pcdeploy/",
+  "permalink": "/rh-ocp/pcdeploy/",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/pcdeploy/pcdeploy.md",
   "tags": [],
@@ -22,10 +22,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Foundation",
-    "permalink": "/diyfoundation/"
+    "permalink": "/rh-ocp/diyfoundation/"
   },
   "next": {
     "title": "Deploy Nutanix CSI for OCP",
-    "permalink": "/ocp_ntnx_hci/ocp_csi"
+    "permalink": "/rh-ocp/ocp_ntnx_hci/ocp_csi"
   }
 }

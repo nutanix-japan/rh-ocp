@@ -12,25 +12,25 @@
       {
         "type": "link",
         "label": "Getting Started",
-        "href": "/",
+        "href": "/rh-ocp/",
         "docId": "intro"
       },
       {
         "type": "link",
         "label": "Foundation",
-        "href": "/diyfoundation/",
+        "href": "/rh-ocp/diyfoundation/",
         "docId": "diyfoundation/diyfoundation"
       },
       {
         "type": "link",
         "label": "PC Deployment",
-        "href": "/pcdeploy/",
+        "href": "/rh-ocp/pcdeploy/",
         "docId": "pcdeploy/pcdeploy"
       },
       {
         "type": "link",
         "label": "Deploy Nutanix CSI for OCP",
-        "href": "/ocp_ntnx_hci/ocp_csi",
+        "href": "/rh-ocp/ocp_ntnx_hci/ocp_csi",
         "docId": "ocp_ntnx_hci/ocp_csi"
       },
       {
@@ -40,25 +40,25 @@
           {
             "type": "link",
             "label": "Introduction",
-            "href": "/ocp_ipi_install/ocp_ipi_intro",
+            "href": "/rh-ocp/ocp_ipi_install/ocp_ipi_intro",
             "docId": "ocp_ipi_install/ocp_ipi_intro"
           },
           {
             "type": "link",
             "label": "Pre-requisites",
-            "href": "/ocp_ipi_install/ocp_ipi_pre_reqs",
+            "href": "/rh-ocp/ocp_ipi_install/ocp_ipi_pre_reqs",
             "docId": "ocp_ipi_install/ocp_ipi_pre_reqs"
           },
           {
             "type": "link",
             "label": "Create Configuration Manifests",
-            "href": "/ocp_ipi_install/ocp_ipi_config_file",
+            "href": "/rh-ocp/ocp_ipi_install/ocp_ipi_config_file",
             "docId": "ocp_ipi_install/ocp_ipi_config_file"
           },
           {
             "type": "link",
             "label": "Deploy",
-            "href": "/ocp_ipi_install/ocp_ipi_install_cleanup",
+            "href": "/rh-ocp/ocp_ipi_install/ocp_ipi_install_cleanup",
             "docId": "ocp_ipi_install/ocp_ipi_install_cleanup"
           }
         ],
@@ -68,7 +68,7 @@
       {
         "type": "link",
         "label": "OCP and Nutanix NDB",
-        "href": "/ocp_ndb/",
+        "href": "/rh-ocp/ocp_ndb/",
         "docId": "ocp_ndb/ocp_ndb"
       },
       {
@@ -78,13 +78,13 @@
           {
             "type": "link",
             "label": "Linux Tools VM",
-            "href": "/toolsvms/linux_tools_vm",
+            "href": "/rh-ocp/toolsvms/linux_tools_vm",
             "docId": "toolsvms/linux_tools_vm"
           },
           {
             "type": "link",
             "label": "Windows Tools VM",
-            "href": "/toolsvms/windows_tools_vm",
+            "href": "/rh-ocp/toolsvms/windows_tools_vm",
             "docId": "toolsvms/windows_tools_vm"
           }
         ],

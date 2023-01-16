@@ -3,172 +3,172 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '3b7'),
+    path: '/rh-ocp/__docusaurus/debug',
+    component: ComponentCreator('/rh-ocp/__docusaurus/debug', '31d'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', 'd72'),
+    path: '/rh-ocp/__docusaurus/debug/config',
+    component: ComponentCreator('/rh-ocp/__docusaurus/debug/config', 'a19'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '62f'),
+    path: '/rh-ocp/__docusaurus/debug/content',
+    component: ComponentCreator('/rh-ocp/__docusaurus/debug/content', 'c0d'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', '03c'),
+    path: '/rh-ocp/__docusaurus/debug/globalData',
+    component: ComponentCreator('/rh-ocp/__docusaurus/debug/globalData', '916'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '8db'),
+    path: '/rh-ocp/__docusaurus/debug/metadata',
+    component: ComponentCreator('/rh-ocp/__docusaurus/debug/metadata', 'fdf'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '670'),
+    path: '/rh-ocp/__docusaurus/debug/registry',
+    component: ComponentCreator('/rh-ocp/__docusaurus/debug/registry', '576'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', 'ff5'),
+    path: '/rh-ocp/__docusaurus/debug/routes',
+    component: ComponentCreator('/rh-ocp/__docusaurus/debug/routes', '14f'),
     exact: true
   },
   {
-    path: '/blog',
-    component: ComponentCreator('/blog', 'ab6'),
+    path: '/rh-ocp/blog',
+    component: ComponentCreator('/rh-ocp/blog', '951'),
     exact: true
   },
   {
-    path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '84e'),
+    path: '/rh-ocp/blog/archive',
+    component: ComponentCreator('/rh-ocp/blog/archive', '2ee'),
     exact: true
   },
   {
-    path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', '4f5'),
+    path: '/rh-ocp/blog/first-blog-post',
+    component: ComponentCreator('/rh-ocp/blog/first-blog-post', '3aa'),
     exact: true
   },
   {
-    path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post', 'd97'),
+    path: '/rh-ocp/blog/long-blog-post',
+    component: ComponentCreator('/rh-ocp/blog/long-blog-post', 'eb1'),
     exact: true
   },
   {
-    path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post', '047'),
+    path: '/rh-ocp/blog/mdx-blog-post',
+    component: ComponentCreator('/rh-ocp/blog/mdx-blog-post', '811'),
     exact: true
   },
   {
-    path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', 'b25'),
+    path: '/rh-ocp/blog/tags',
+    component: ComponentCreator('/rh-ocp/blog/tags', 'dff'),
     exact: true
   },
   {
-    path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', '343'),
+    path: '/rh-ocp/blog/tags/docusaurus',
+    component: ComponentCreator('/rh-ocp/blog/tags/docusaurus', '60c'),
     exact: true
   },
   {
-    path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook', '922'),
+    path: '/rh-ocp/blog/tags/facebook',
+    component: ComponentCreator('/rh-ocp/blog/tags/facebook', '753'),
     exact: true
   },
   {
-    path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', 'abe'),
+    path: '/rh-ocp/blog/tags/hello',
+    component: ComponentCreator('/rh-ocp/blog/tags/hello', '53f'),
     exact: true
   },
   {
-    path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola', '9dc'),
+    path: '/rh-ocp/blog/tags/hola',
+    component: ComponentCreator('/rh-ocp/blog/tags/hola', '27f'),
     exact: true
   },
   {
-    path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', '4ce'),
+    path: '/rh-ocp/blog/welcome',
+    component: ComponentCreator('/rh-ocp/blog/welcome', '079'),
     exact: true
   },
   {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '94e'),
+    path: '/rh-ocp/markdown-page',
+    component: ComponentCreator('/rh-ocp/markdown-page', 'bd6'),
     exact: true
   },
   {
-    path: '/',
-    component: ComponentCreator('/', '864'),
+    path: '/rh-ocp/',
+    component: ComponentCreator('/rh-ocp/', '383'),
     routes: [
       {
-        path: '/',
-        component: ComponentCreator('/', '96c'),
+        path: '/rh-ocp/',
+        component: ComponentCreator('/rh-ocp/', 'bdd'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/diyfoundation/',
-        component: ComponentCreator('/diyfoundation/', '4f4'),
+        path: '/rh-ocp/diyfoundation/',
+        component: ComponentCreator('/rh-ocp/diyfoundation/', '05f'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/ocp_ipi_install/',
-        component: ComponentCreator('/ocp_ipi_install/', '2ec'),
+        path: '/rh-ocp/ocp_ipi_install/',
+        component: ComponentCreator('/rh-ocp/ocp_ipi_install/', '070'),
         exact: true
       },
       {
-        path: '/ocp_ipi_install/ocp_ipi_config_file',
-        component: ComponentCreator('/ocp_ipi_install/ocp_ipi_config_file', 'fc8'),
+        path: '/rh-ocp/ocp_ipi_install/ocp_ipi_config_file',
+        component: ComponentCreator('/rh-ocp/ocp_ipi_install/ocp_ipi_config_file', '2bc'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/ocp_ipi_install/ocp_ipi_install_cleanup',
-        component: ComponentCreator('/ocp_ipi_install/ocp_ipi_install_cleanup', '15e'),
+        path: '/rh-ocp/ocp_ipi_install/ocp_ipi_install_cleanup',
+        component: ComponentCreator('/rh-ocp/ocp_ipi_install/ocp_ipi_install_cleanup', 'a09'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/ocp_ipi_install/ocp_ipi_intro',
-        component: ComponentCreator('/ocp_ipi_install/ocp_ipi_intro', '3b4'),
+        path: '/rh-ocp/ocp_ipi_install/ocp_ipi_intro',
+        component: ComponentCreator('/rh-ocp/ocp_ipi_install/ocp_ipi_intro', 'dc2'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/ocp_ipi_install/ocp_ipi_pre_reqs',
-        component: ComponentCreator('/ocp_ipi_install/ocp_ipi_pre_reqs', '986'),
+        path: '/rh-ocp/ocp_ipi_install/ocp_ipi_pre_reqs',
+        component: ComponentCreator('/rh-ocp/ocp_ipi_install/ocp_ipi_pre_reqs', 'a5e'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/ocp_ndb/',
-        component: ComponentCreator('/ocp_ndb/', 'cd3'),
+        path: '/rh-ocp/ocp_ndb/',
+        component: ComponentCreator('/rh-ocp/ocp_ndb/', 'eef'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/ocp_ntnx_hci/ocp_csi',
-        component: ComponentCreator('/ocp_ntnx_hci/ocp_csi', '9f6'),
+        path: '/rh-ocp/ocp_ntnx_hci/ocp_csi',
+        component: ComponentCreator('/rh-ocp/ocp_ntnx_hci/ocp_csi', '97c'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/pcdeploy/',
-        component: ComponentCreator('/pcdeploy/', 'cff'),
+        path: '/rh-ocp/pcdeploy/',
+        component: ComponentCreator('/rh-ocp/pcdeploy/', 'b37'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/toolsvms/linux_tools_vm',
-        component: ComponentCreator('/toolsvms/linux_tools_vm', 'be7'),
+        path: '/rh-ocp/toolsvms/linux_tools_vm',
+        component: ComponentCreator('/rh-ocp/toolsvms/linux_tools_vm', 'fb6'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/toolsvms/windows_tools_vm',
-        component: ComponentCreator('/toolsvms/windows_tools_vm', 'f06'),
+        path: '/rh-ocp/toolsvms/windows_tools_vm',
+        component: ComponentCreator('/rh-ocp/toolsvms/windows_tools_vm', 'e83'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

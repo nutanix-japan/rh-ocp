@@ -6,13 +6,14 @@
 export default {
   "title": "Openshift on Nutanix",
   "tagline": "Zero to Hero",
-  "url": "https://your-docusaurus-test-site.com",
-  "baseUrl": "/",
+  "url": "https://github.com",
+  "baseUrl": "/rh-ocp/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
   "organizationName": "nutanix-japan",
   "projectName": "rh-ocp",
+  "deploymentBranch": "gh-pages",
   "i18n": {
     "defaultLocale": "en",
     "locales": [
