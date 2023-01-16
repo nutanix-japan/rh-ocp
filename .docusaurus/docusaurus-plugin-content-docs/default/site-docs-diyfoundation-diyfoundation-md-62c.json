@@ -1,0 +1,31 @@
+{
+  "unversionedId": "diyfoundation/diyfoundation",
+  "id": "diyfoundation/diyfoundation",
+  "title": "Foundation",
+  "description": "Overview",
+  "source": "@site/docs/diyfoundation/diyfoundation.md",
+  "sourceDirName": "diyfoundation",
+  "slug": "/diyfoundation/",
+  "permalink": "/diyfoundation/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/diyfoundation/diyfoundation.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "title": "Foundation",
+    "lastupdate": "git",
+    "lastupdateauthor": "git"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/"
+  },
+  "next": {
+    "title": "PC Deployment",
+    "permalink": "/pcdeploy/"
+  }
+}

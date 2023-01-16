@@ -1,0 +1,29 @@
+{
+  "unversionedId": "ocp_ipi_install/ocp_ipi_config_file",
+  "id": "ocp_ipi_install/ocp_ipi_config_file",
+  "title": "Create Configuration Manifests",
+  "description": "Creating IPI Installation Config File",
+  "source": "@site/docs/ocp_ipi_install/ocp_ipi_config_file.mdx",
+  "sourceDirName": "ocp_ipi_install",
+  "slug": "/ocp_ipi_install/ocp_ipi_config_file",
+  "permalink": "/ocp_ipi_install/ocp_ipi_config_file",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ocp_ipi_install/ocp_ipi_config_file.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "Oct 14, 2018",
+  "frontMatter": {
+    "title": "Create Configuration Manifests"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Pre-requisites",
+    "permalink": "/ocp_ipi_install/ocp_ipi_pre_reqs"
+  },
+  "next": {
+    "title": "Deploy",
+    "permalink": "/ocp_ipi_install/ocp_ipi_install_cleanup"
+  }
+}

@@ -1,0 +1,800 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/",
+          "tagsPath": "/tags",
+          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
+          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/lakshmi/Documents/GitHub/rh-ocp/sidebars.js",
+          "contentPath": "/Users/lakshmi/Documents/GitHub/rh-ocp/docs",
+          "contentPathLocalized": "/Users/lakshmi/Documents/GitHub/rh-ocp/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "diyfoundation/diyfoundation",
+              "id": "diyfoundation/diyfoundation",
+              "title": "Foundation",
+              "description": "Overview",
+              "source": "@site/docs/diyfoundation/diyfoundation.md",
+              "sourceDirName": "diyfoundation",
+              "slug": "/diyfoundation/",
+              "permalink": "/diyfoundation/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/diyfoundation/diyfoundation.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {
+                "title": "Foundation",
+                "lastupdate": "git",
+                "lastupdateauthor": "git"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Getting Started",
+                "permalink": "/"
+              },
+              "next": {
+                "title": "PC Deployment",
+                "permalink": "/pcdeploy/"
+              }
+            },
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "title": "Getting Started",
+              "description": "Welcome to the Openshift Container Platform (OCP) on Nutanix HCI workshop.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "slug": "/",
+                "lastupdate": "git",
+                "lastupdateauthor": "git"
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Foundation",
+                "permalink": "/diyfoundation/"
+              }
+            },
+            {
+              "unversionedId": "ocp_ipi_install/ocp_ipi_config_file",
+              "id": "ocp_ipi_install/ocp_ipi_config_file",
+              "title": "Create Configuration Manifests",
+              "description": "Creating IPI Installation Config File",
+              "source": "@site/docs/ocp_ipi_install/ocp_ipi_config_file.mdx",
+              "sourceDirName": "ocp_ipi_install",
+              "slug": "/ocp_ipi_install/ocp_ipi_config_file",
+              "permalink": "/ocp_ipi_install/ocp_ipi_config_file",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ocp_ipi_install/ocp_ipi_config_file.mdx",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {
+                "title": "Create Configuration Manifests"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Pre-requisites",
+                "permalink": "/ocp_ipi_install/ocp_ipi_pre_reqs"
+              },
+              "next": {
+                "title": "Deploy",
+                "permalink": "/ocp_ipi_install/ocp_ipi_install_cleanup"
+              }
+            },
+            {
+              "unversionedId": "ocp_ipi_install/ocp_ipi_install",
+              "id": "ocp_ipi_install/ocp_ipi_install",
+              "title": "Introduction",
+              "description": "OCP Installer Provisioned Installation (IPI) was released in August 2022. It gives customer a intutive and easy way to deploy OCP cluster on Nutanix AOS.",
+              "source": "@site/docs/ocp_ipi_install/ocp_ipi_install.mdx",
+              "sourceDirName": "ocp_ipi_install",
+              "slug": "/ocp_ipi_install/",
+              "permalink": "/ocp_ipi_install/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ocp_ipi_install/ocp_ipi_install.mdx",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {
+                "title": "Introduction"
+              }
+            },
+            {
+              "unversionedId": "ocp_ipi_install/ocp_ipi_install_cleanup",
+              "id": "ocp_ipi_install/ocp_ipi_install_cleanup",
+              "title": "Deploy",
+              "description": "Deploying OCP Cluster",
+              "source": "@site/docs/ocp_ipi_install/ocp_ipi_install_cleanup.mdx",
+              "sourceDirName": "ocp_ipi_install",
+              "slug": "/ocp_ipi_install/ocp_ipi_install_cleanup",
+              "permalink": "/ocp_ipi_install/ocp_ipi_install_cleanup",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ocp_ipi_install/ocp_ipi_install_cleanup.mdx",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {
+                "title": "Deploy"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Create Configuration Manifests",
+                "permalink": "/ocp_ipi_install/ocp_ipi_config_file"
+              },
+              "next": {
+                "title": "OCP and Nutanix NDB",
+                "permalink": "/ocp_ndb/"
+              }
+            },
+            {
+              "unversionedId": "ocp_ipi_install/ocp_ipi_intro",
+              "id": "ocp_ipi_install/ocp_ipi_intro",
+              "title": "Introduction",
+              "description": "OCP Installer Provisioned Installation (IPI) was released in August 2022. It gives customer a intutive and easy way to deploy OCP cluster on Nutanix AOS.",
+              "source": "@site/docs/ocp_ipi_install/ocp_ipi_intro.mdx",
+              "sourceDirName": "ocp_ipi_install",
+              "slug": "/ocp_ipi_install/ocp_ipi_intro",
+              "permalink": "/ocp_ipi_install/ocp_ipi_intro",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ocp_ipi_install/ocp_ipi_intro.mdx",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {
+                "title": "Introduction"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Deploy Nutanix CSI for OCP",
+                "permalink": "/ocp_ntnx_hci/ocp_csi"
+              },
+              "next": {
+                "title": "Pre-requisites",
+                "permalink": "/ocp_ipi_install/ocp_ipi_pre_reqs"
+              }
+            },
+            {
+              "unversionedId": "ocp_ipi_install/ocp_ipi_pre_reqs",
+              "id": "ocp_ipi_install/ocp_ipi_pre_reqs",
+              "title": "Pre-requisites",
+              "description": "Preparing Pre-requisites",
+              "source": "@site/docs/ocp_ipi_install/ocp_ipi_pre_reqs.mdx",
+              "sourceDirName": "ocp_ipi_install",
+              "slug": "/ocp_ipi_install/ocp_ipi_pre_reqs",
+              "permalink": "/ocp_ipi_install/ocp_ipi_pre_reqs",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ocp_ipi_install/ocp_ipi_pre_reqs.mdx",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {
+                "title": "Pre-requisites"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/ocp_ipi_install/ocp_ipi_intro"
+              },
+              "next": {
+                "title": "Create Configuration Manifests",
+                "permalink": "/ocp_ipi_install/ocp_ipi_config_file"
+              }
+            },
+            {
+              "unversionedId": "ocp_ndb/ocp_ndb",
+              "id": "ocp_ndb/ocp_ndb",
+              "title": "OCP and Nutanix NDB",
+              "description": "In this lab we will setup custom micro-service based application with VM based Nutanix Database NDB service.",
+              "source": "@site/docs/ocp_ndb/ocp_ndb.md",
+              "sourceDirName": "ocp_ndb",
+              "slug": "/ocp_ndb/",
+              "permalink": "/ocp_ndb/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ocp_ndb/ocp_ndb.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {
+                "title": "OCP and Nutanix NDB",
+                "lastupdate": "git",
+                "lastupdateauthor": "Lakshmi Balaramane"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Deploy",
+                "permalink": "/ocp_ipi_install/ocp_ipi_install_cleanup"
+              },
+              "next": {
+                "title": "Linux Tools VM",
+                "permalink": "/toolsvms/linux_tools_vm"
+              }
+            },
+            {
+              "unversionedId": "ocp_ntnx_hci/ocp_csi",
+              "id": "ocp_ntnx_hci/ocp_csi",
+              "title": "Deploy Nutanix CSI for OCP",
+              "description": "In this section we will enable your deployed OCP cluster to have access to Nutanix HCI storage in the form of StorageClass, Physical Volumes and Pysical Volume claims.",
+              "source": "@site/docs/ocp_ntnx_hci/ocp_csi.md",
+              "sourceDirName": "ocp_ntnx_hci",
+              "slug": "/ocp_ntnx_hci/ocp_csi",
+              "permalink": "/ocp_ntnx_hci/ocp_csi",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ocp_ntnx_hci/ocp_csi.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {
+                "title": "Deploy Nutanix CSI for OCP",
+                "lastupdate": "git",
+                "lastupdateauthor": "git"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "PC Deployment",
+                "permalink": "/pcdeploy/"
+              },
+              "next": {
+                "title": "Introduction",
+                "permalink": "/ocp_ipi_install/ocp_ipi_intro"
+              }
+            },
+            {
+              "unversionedId": "pcdeploy/pcdeploy",
+              "id": "pcdeploy/pcdeploy",
+              "title": "PC Deployment",
+              "description": "Overview",
+              "source": "@site/docs/pcdeploy/pcdeploy.md",
+              "sourceDirName": "pcdeploy",
+              "slug": "/pcdeploy/",
+              "permalink": "/pcdeploy/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/pcdeploy/pcdeploy.md",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "frontMatter": {
+                "title": "PC Deployment",
+                "lastupdate": "git",
+                "lastupdateauthor": "git"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Foundation",
+                "permalink": "/diyfoundation/"
+              },
+              "next": {
+                "title": "Deploy Nutanix CSI for OCP",
+                "permalink": "/ocp_ntnx_hci/ocp_csi"
+              }
+            },
+            {
+              "unversionedId": "toolsvms/linux_tools_vm",
+              "id": "toolsvms/linux_tools_vm",
+              "title": "Linux Tools VM",
+              "description": "Overview",
+              "source": "@site/docs/toolsvms/linux_tools_vm.mdx",
+              "sourceDirName": "toolsvms",
+              "slug": "/toolsvms/linux_tools_vm",
+              "permalink": "/toolsvms/linux_tools_vm",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/toolsvms/linux_tools_vm.mdx",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Linux Tools VM",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "OCP and Nutanix NDB",
+                "permalink": "/ocp_ndb/"
+              },
+              "next": {
+                "title": "Windows Tools VM",
+                "permalink": "/toolsvms/windows_tools_vm"
+              }
+            },
+            {
+              "unversionedId": "toolsvms/windows_tools_vm",
+              "id": "toolsvms/windows_tools_vm",
+              "title": "Windows Tools VM",
+              "description": "Overview",
+              "source": "@site/docs/toolsvms/windows_tools_vm.mdx",
+              "sourceDirName": "toolsvms",
+              "slug": "/toolsvms/windows_tools_vm",
+              "permalink": "/toolsvms/windows_tools_vm",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/toolsvms/windows_tools_vm.mdx",
+              "tags": [],
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "formattedLastUpdatedAt": "Oct 14, 2018",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "Windows Tools VM",
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Linux Tools VM",
+                "permalink": "/toolsvms/linux_tools_vm"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "doc",
+                "id": "diyfoundation/diyfoundation"
+              },
+              {
+                "type": "doc",
+                "id": "pcdeploy/pcdeploy"
+              },
+              {
+                "type": "doc",
+                "id": "ocp_ntnx_hci/ocp_csi"
+              },
+              {
+                "type": "category",
+                "label": "Nutanix IPI Installation",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "ocp_ipi_install/ocp_ipi_intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "ocp_ipi_install/ocp_ipi_pre_reqs"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "ocp_ipi_install/ocp_ipi_config_file"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "ocp_ipi_install/ocp_ipi_install_cleanup"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "doc",
+                "id": "ocp_ndb/ocp_ndb"
+              },
+              {
+                "type": "category",
+                "label": "Tools VMs",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "toolsvms/linux_tools_vm"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "toolsvms/windows_tools_vm"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [
+        {
+          "id": "welcome",
+          "metadata": {
+            "permalink": "/blog/welcome",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-26-welcome/index.md",
+            "source": "@site/blog/2021-08-26-welcome/index.md",
+            "title": "Welcome",
+            "description": "Docusaurus blogging features are powered by the blog plugin.",
+            "date": "2021-08-26T00:00:00.000Z",
+            "formattedDate": "August 26, 2021",
+            "tags": [
+              {
+                "label": "facebook",
+                "permalink": "/blog/tags/facebook"
+              },
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.405,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Sébastien Lorber",
+                "title": "Docusaurus maintainer",
+                "url": "https://sebastienlorber.com",
+                "imageURL": "https://github.com/slorber.png",
+                "key": "slorber"
+              },
+              {
+                "name": "Yangshun Tay",
+                "title": "Front End Engineer @ Facebook",
+                "url": "https://github.com/yangshun",
+                "imageURL": "https://github.com/yangshun.png",
+                "key": "yangshun"
+              }
+            ],
+            "frontMatter": {
+              "slug": "welcome",
+              "title": "Welcome",
+              "authors": [
+                "slorber",
+                "yangshun"
+              ],
+              "tags": [
+                "facebook",
+                "hello",
+                "docusaurus"
+              ]
+            },
+            "nextItem": {
+              "title": "MDX Blog Post",
+              "permalink": "/blog/mdx-blog-post"
+            }
+          },
+          "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\n\nSimply add Markdown files (or folders) to the `blog` directory.\n\nRegular blog authors can be added to `authors.yml`.\n\nThe blog post date can be extracted from filenames, such as:\n\n- `2019-05-30-welcome.md`\n- `2019-05-30-welcome/index.md`\n\nA blog post folder can be convenient to co-locate blog post images:\n\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\n\nThe blog supports tags as well!\n\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
+        },
+        {
+          "id": "mdx-blog-post",
+          "metadata": {
+            "permalink": "/blog/mdx-blog-post",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-01-mdx-blog-post.mdx",
+            "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
+            "title": "MDX Blog Post",
+            "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
+            "date": "2021-08-01T00:00:00.000Z",
+            "formattedDate": "August 1, 2021",
+            "tags": [
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.175,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Sébastien Lorber",
+                "title": "Docusaurus maintainer",
+                "url": "https://sebastienlorber.com",
+                "imageURL": "https://github.com/slorber.png",
+                "key": "slorber"
+              }
+            ],
+            "frontMatter": {
+              "slug": "mdx-blog-post",
+              "title": "MDX Blog Post",
+              "authors": [
+                "slorber"
+              ],
+              "tags": [
+                "docusaurus"
+              ]
+            },
+            "prevItem": {
+              "title": "Welcome",
+              "permalink": "/blog/welcome"
+            },
+            "nextItem": {
+              "title": "Long Blog Post",
+              "permalink": "/blog/long-blog-post"
+            }
+          },
+          "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\n\n:::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n```\n\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n\n:::"
+        },
+        {
+          "id": "long-blog-post",
+          "metadata": {
+            "permalink": "/blog/long-blog-post",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-29-long-blog-post.md",
+            "source": "@site/blog/2019-05-29-long-blog-post.md",
+            "title": "Long Blog Post",
+            "description": "This is the summary of a very long blog post,",
+            "date": "2019-05-29T00:00:00.000Z",
+            "formattedDate": "May 29, 2019",
+            "tags": [
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 2.05,
+            "hasTruncateMarker": true,
+            "authors": [
+              {
+                "name": "Endilie Yacop Sucipto",
+                "title": "Maintainer of Docusaurus",
+                "url": "https://github.com/endiliey",
+                "imageURL": "https://github.com/endiliey.png",
+                "key": "endi"
+              }
+            ],
+            "frontMatter": {
+              "slug": "long-blog-post",
+              "title": "Long Blog Post",
+              "authors": "endi",
+              "tags": [
+                "hello",
+                "docusaurus"
+              ]
+            },
+            "prevItem": {
+              "title": "MDX Blog Post",
+              "permalink": "/blog/mdx-blog-post"
+            },
+            "nextItem": {
+              "title": "First Blog Post",
+              "permalink": "/blog/first-blog-post"
+            }
+          },
+          "content": "This is the summary of a very long blog post,\n\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\n\n<!--truncate-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+        },
+        {
+          "id": "first-blog-post",
+          "metadata": {
+            "permalink": "/blog/first-blog-post",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-28-first-blog-post.md",
+            "source": "@site/blog/2019-05-28-first-blog-post.md",
+            "title": "First Blog Post",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
+            "date": "2019-05-28T00:00:00.000Z",
+            "formattedDate": "May 28, 2019",
+            "tags": [
+              {
+                "label": "hola",
+                "permalink": "/blog/tags/hola"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.12,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Gao Wei",
+                "title": "Docusaurus Core Team",
+                "url": "https://github.com/wgao19",
+                "image_url": "https://github.com/wgao19.png",
+                "imageURL": "https://github.com/wgao19.png"
+              }
+            ],
+            "frontMatter": {
+              "slug": "first-blog-post",
+              "title": "First Blog Post",
+              "authors": {
+                "name": "Gao Wei",
+                "title": "Docusaurus Core Team",
+                "url": "https://github.com/wgao19",
+                "image_url": "https://github.com/wgao19.png",
+                "imageURL": "https://github.com/wgao19.png"
+              },
+              "tags": [
+                "hola",
+                "docusaurus"
+              ]
+            },
+            "prevItem": {
+              "title": "Long Blog Post",
+              "permalink": "/blog/long-blog-post"
+            }
+          },
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "items": [
+            "welcome",
+            "mdx-blog-post",
+            "long-blog-post",
+            "first-blog-post"
+          ],
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 4,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          }
+        }
+      ],
+      "blogTags": {
+        "/blog/tags/facebook": {
+          "label": "facebook",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/blog/tags/facebook",
+          "pages": [
+            {
+              "items": [
+                "welcome"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/facebook",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/hello": {
+          "label": "hello",
+          "items": [
+            "welcome",
+            "long-blog-post"
+          ],
+          "permalink": "/blog/tags/hello",
+          "pages": [
+            {
+              "items": [
+                "welcome",
+                "long-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/hello",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 2,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/docusaurus": {
+          "label": "docusaurus",
+          "items": [
+            "welcome",
+            "mdx-blog-post",
+            "long-blog-post",
+            "first-blog-post"
+          ],
+          "permalink": "/blog/tags/docusaurus",
+          "pages": [
+            {
+              "items": [
+                "welcome",
+                "mdx-blog-post",
+                "long-blog-post",
+                "first-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/docusaurus",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 4,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/hola": {
+          "label": "hola",
+          "items": [
+            "first-blog-post"
+          ],
+          "permalink": "/blog/tags/hola",
+          "pages": [
+            {
+              "items": [
+                "first-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/hola",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}
