@@ -93,4 +93,15 @@ module.exports = {
   // ...
 };
 
+module.exports = {
+  // ... other configuration options ...
+  themeConfig: {
+    // ... other theme configuration options ...
+    stylesheets: [
+      '/css/custom.css',
+    ],
+  },
+};
+
+
 module.exports = config;

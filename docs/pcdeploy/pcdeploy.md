@@ -18,37 +18,21 @@ This lab will introduce Prism Central's(PC) One-Click deploy process
 
 In this sectio we will create a AHV network called Primary to host our Prism Central and other workloads.
 
-1. Open ``https://POCxx-ABC Cluster IP:9440`` (https://10.42.xx.37:9440) in your browser and log in with the following credentials:
+1. Open ``https://Cluster Virtual IP:9440`` (https://10.42.xx.37:9440) in your browser and log in with the following credentials:
 
    -  **Username** - admin
-   -  **Password** - check password in RX
+   -  **Password** - check password you set up during Foundation
 
-1.  In the Prism Element UI click :fontawesome-solid-gear: > **Network Configuration > Networks > Create Network**
+2.  In the Prism Element UI click :fontawesome-solid-gear: > **Network Configuration > Networks > Create Network**
 
-2.  Fill out the following fields:
+3.  Fill out the following fields:
 
     -  **Name** - Primary
     -  **Virtual Switch** - vs0
     -  **VLAN ID** - 0
     -  **Enable IP address management** - leave it unselected
 
-3.  Click **Save**
-
-4.  Create the second network by clicking on **+ Create Network** with
-    the following details:
-
-    -  **Name** - Secondary
-    -  **Virtual Switch** - vs0
-    -  **VLAN ID** - *HPOC Cluster ID* 1 (e.g. for **PHX-POC079**,
-        VLAN ID would be **791**)
-    -  **Enable IP address management** - leave it unselected
-
-5.  Click **Save**
-
-6.  You should see two networks as shown here
-
-    ![](images/image001.png)
-
+4.  Click **Save**
 ## Prism Central Deploy
 
 1.  Navigate to **Home** page and click **Register or create new** in
@@ -96,9 +80,9 @@ In this sectio we will create a AHV network called Primary to host our Prism Cen
 
 ## Prism Central Registration
 
-1.  Go back to POCxx-ABC Cluster (https://10.42.xx.37:9440)
+1.  Log back in to POCXXX Prism Element Cluster (https://10.42.xx.37:9440)
 
-1.  Navigate to **Home** page and click cluster name **POCxx-ABC** and provide a cluster data service ip **10.42.xx.38** 
+1.  Navigate to **Home** page and click cluster name **POCXXX** and provide a cluster data service ip **10.42.xx.38** 
 
     ![](images/9.png)
 
@@ -119,17 +103,21 @@ In this sectio we will create a AHV network called Primary to host our Prism Cen
     -  **Prism Central IP** - 10.42.xx.39
     -  **Port** - 9440
     -  **Username** - admin
-    -  **Password** - check password in RX
+    -  **Password** - use the same password as your cluster
    
     ![](images/7.png)
 
-    You will see an **OK** with PC\'s IP in Prism Central widget.
+    You will see an **OK** with PC's IP in Prism Central widget.
    
     ![](images/8.png)
 
-You have successully registered Prism Element to be managed your Prism Central.
+You have successfully registered Prism Element to be managed by your Prism Central.
 
 :::note
+
 Once the Prism Element registration is complete, several management features on Prism Element will be **Read-Only** mode but fully available in Prism Central.
+
 :::
+
+In the next section we will use this Prism Central functionality to deploy a OCP cluster.
 
