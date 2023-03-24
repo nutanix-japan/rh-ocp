@@ -90,6 +90,12 @@
         ],
         "collapsed": true,
         "collapsible": true
+      },
+      {
+        "type": "link",
+        "label": "Preparation for Instructor",
+        "href": "/rh-ocp/instructor/",
+        "docId": "instructor/instructor"
       }
     ]
   },
@@ -98,6 +104,12 @@
       "id": "diyfoundation/diyfoundation",
       "title": "Foundation",
       "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "instructor/instructor": {
+      "id": "instructor/instructor",
+      "title": "Preparation for Instructor",
+      "description": "Bootcamp Instructor Preparation",
       "sidebar": "tutorialSidebar"
     },
     "intro": {

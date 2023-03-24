@@ -99,7 +99,7 @@ export default [
   },
   {
     path: '/rh-ocp/',
-    component: ComponentCreator('/rh-ocp/', '383'),
+    component: ComponentCreator('/rh-ocp/', '3cd'),
     routes: [
       {
         path: '/rh-ocp/',
@@ -110,6 +110,12 @@ export default [
       {
         path: '/rh-ocp/diyfoundation/',
         component: ComponentCreator('/rh-ocp/diyfoundation/', '05f'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/rh-ocp/instructor/',
+        component: ComponentCreator('/rh-ocp/instructor/', 'f37'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

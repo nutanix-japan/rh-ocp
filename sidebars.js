@@ -15,5 +15,6 @@ module.exports = {
       label: 'Tools VMs',
       items: ['toolsvms/linux_tools_vm','toolsvms/windows_tools_vm'],
     },
+    "instructor/instructor"
   ],
 };

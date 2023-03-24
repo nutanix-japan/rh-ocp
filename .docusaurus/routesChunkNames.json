@@ -186,7 +186,7 @@
     },
     "content": "content---rh-ocp-markdown-page-393-6e3"
   },
-  "/rh-ocp/-383": {
+  "/rh-ocp/-3cd": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---rh-ocp-7-bd-754"
@@ -200,6 +200,10 @@
   "/rh-ocp/diyfoundation/-05f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---rh-ocp-diyfoundation-62-c-31a"
+  },
+  "/rh-ocp/instructor/-f37": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---rh-ocp-instructor-1-a-2-c61"
   },
   "/rh-ocp/ocp_ipi_install/-070": {
     "__comp": "__comp---theme-doc-item-178-a40",

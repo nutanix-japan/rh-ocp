@@ -16,6 +16,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "instructor/instructor",
+              "path": "/rh-ocp/instructor/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/rh-ocp/",
               "sidebar": "tutorialSidebar"

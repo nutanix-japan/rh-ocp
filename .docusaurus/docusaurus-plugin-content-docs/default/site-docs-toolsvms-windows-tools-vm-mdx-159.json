@@ -23,5 +23,9 @@
   "previous": {
     "title": "Linux Tools VM",
     "permalink": "/rh-ocp/toolsvms/linux_tools_vm"
+  },
+  "next": {
+    "title": "Preparation for Instructor",
+    "permalink": "/rh-ocp/instructor/"
   }
 }
