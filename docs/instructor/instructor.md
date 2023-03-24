@@ -10,10 +10,11 @@ import TabItem from '@theme/TabItem';
 ## Bootcamp Instructor Preparation
 
 - Get the number of participants
-- Book a 4 node HPOC (one for each participant or a participant group)
-- Book a Single node HPOC (same datacenter as the 4 node HPOC)
-  - Deploy as many number of Foundation VMs on SPOC using Terraform
-  - Collect details of Foundation VMs and pass it on to participants
+- Two weeks before your workshop: to make sure you can reserve clusters
+  - Book a 4 node HPOC (one for each participant or a participant group)
+  - Book a Single node HPOC (SPOC) (same datacenter as the 4 node HPOC)
+    - Deploy as many number of Foundation VMs on SPOC using Terraform
+    - Collect details of Foundation VMs and pass it on to participants
 
 ## Deploy Foundation VMs
 
@@ -62,5 +63,72 @@ import TabItem from '@theme/TabItem';
 3. Download the following files in terraform directory
    
    ```bash
-   curl -OL 
+   curl -OL https://raw.githubusercontent.com/nutanix-japan/rh-ocp/main/docs/instructor/terraform/main.tf
+   curl -OL https://raw.githubusercontent.com/nutanix-japan/rh-ocp/main/docs/instructor/terraform/output.tf
+   curl -OL https://raw.githubusercontent.com/nutanix-japan/rh-ocp/main/docs/instructor/terraform/variables.tf
    ```
+
+4. Create a tfvars file template
+    
+   ```bash
+   cat << EOF > terraform.tfvars
+   cluster_name           = "your SPOC name"    # << Change this
+   subnet_name            = "Primary"           # << Change this if different
+   user                   = "admin"             # << Change this
+   password               = "XXXXXXX"           # << Change this
+   endpoint               = "Prism Element IP"  # << Change this
+   vm_foundation_prefix   = "foundationvm-user" 
+   vm_count               = 2                   # << Change this to the number of VMs you would like
+   image_uri              = "http://10.42.194.11/workshop_staging/Foundation/Foundation_VM-5.2-disk-0.qcow2"
+   EOF
+   ```
+        
+5. Change values in the tfvars file to suit your environment
+   
+   ```bash
+   vi terraform.tfvars
+   ```
+
+6.  Validate your Terraform code
+
+    ```bash
+    tf validate
+    ```
+
+7.  Apply your Terraform code to create virtual machines and associated resources
+  
+    ```bash
+    tf apply 
+    ```
+    ```bash  
+    # Terraform will show you all resources that it will to create
+    # Type yes to confirm 
+    Enter a value: yes
+
+    nutanix_image.foundationimage: Creating...
+    nutanix_image.foundationimage: Still creating... [10s elapsed]
+    nutanix_image.foundationimage: Still creating... [2m0s elapsed]
+    nutanix_image.foundationimage: Creation complete after 2m11s [id=2c826a76-6c2d-40f7-8a3d-d2b26154f823]
+    nutanix_virtual_machine.foundationvm[0]: Creating...
+    nutanix_virtual_machine.foundationvm[0]: Still creating... [10s elapsed]
+    nutanix_virtual_machine.foundationvm[0]: Still creating... [2m30s elapsed]
+    nutanix_virtual_machine.foundationvm[0]Creation complete after 2m31s 
+    ```
+
+1. Confirm the current state of terraform resources
+   ```bash
+   tf state list 
+   ```
+   ```bash           
+   # output below                                                         
+   data.nutanix_cluster.cluster
+   data.nutanix_subnet.subnet
+   nutanix_image.foundationimage
+   nutanix_virtual_machine.foundationvm[0] # >> This is Foundation VM 1
+   nutanix_virtual_machine.foundationvm[1] # >> This is Foundation VM 2
+   ```
+
+2. You can also confirm the presence of Foundation VMs on the Prism GUI.
+
+3.  Assign each participant a Foundation VM from your Single Node POC cluster.
+

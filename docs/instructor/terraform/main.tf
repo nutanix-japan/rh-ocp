@@ -32,9 +32,9 @@ resource "nutanix_virtual_machine" "foundationvm" {
   count                = var.vm_count
   name                 = "${var.vm_foundation_prefix}-${count.index + 1}"
   cluster_uuid         = data.nutanix_cluster.cluster.id
-  num_vcpus_per_socket = "2"
+  num_vcpus_per_socket = "4"
   num_sockets          = "1"
-  memory_size_mib      = 1024
+  memory_size_mib      = 4096
   disk_list {
     data_source_reference = {
       kind = "image"
