@@ -80,7 +80,7 @@ import TabItem from '@theme/TabItem';
    vm_foundation_prefix   = "foundationvm-user" 
    vm_count               = 2                   # << Change this to the number of VMs you would like
    image_uri              = ""                  # << Change this to Foundation QCOW2 URL
-   ndb_image_uri              = ""              # << Change this to NDB QCOW2 URL
+   ndb_image_uri          = ""                  # << Change this to NDB QCOW2 URL
    EOF
    ```
         
@@ -134,7 +134,7 @@ import TabItem from '@theme/TabItem';
 3.  Assign each participant a Foundation VM from your Single Node POC cluster.
 
 
-## Deploy NDB VM
+## Configure NDB VM
 
 The Terraform script would have also created a NDB VM on your Single node cluster.
 
