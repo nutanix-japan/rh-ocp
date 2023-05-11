@@ -30,3 +30,7 @@ variable "vm_foundation_prefix" {
 variable "image_uri" {
   type = string
 }
+
+variable "ndb_image_uri" {
+  type = string
+}
