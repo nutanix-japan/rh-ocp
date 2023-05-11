@@ -132,3 +132,15 @@ import TabItem from '@theme/TabItem';
 
 3.  Assign each participant a Foundation VM from your Single Node POC cluster.
 
+
+## Deploy NDB VM
+
+The Terraform script would have also created a NDB VM on your Single node cluster.
+
+1. From Prism Element, find the IP of the NDB VM
+2. In a browser, enter the IP of the NDB VM
+3. The Web UI would prompt to set the password for admin user and login - distribute this to lab users for NDB labs
+4. Follow through the prompts to set up Prism Element (Single Node HPOC Connection) for users
+5. Follow prompts to setup no SMTP notification
+6. Complete the setup wizard
+
