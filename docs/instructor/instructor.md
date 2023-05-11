@@ -76,10 +76,11 @@ import TabItem from '@theme/TabItem';
    subnet_name            = "Primary"           # << Change this if different
    user                   = "admin"             # << Change this
    password               = "XXXXXXX"           # << Change this
-   endpoint               = "Prism Central IP"  # << Change this
+   endpoint               = "SPOC VIP"          # << Change this
    vm_foundation_prefix   = "foundationvm-user" 
    vm_count               = 2                   # << Change this to the number of VMs you would like
-   image_uri              = "http://10.42.194.11/workshop_staging/Foundation/Foundation_VM-5.2-disk-0.qcow2"
+   image_uri              = ""                  # << Change this to Foundation QCOW2 URL
+   ndb_image_uri              = ""              # << Change this to NDB QCOW2 URL
    EOF
    ```
         
