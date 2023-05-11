@@ -143,4 +143,5 @@ The Terraform script would have also created a NDB VM on your Single node cluste
 4. Follow through the prompts to set up Prism Element (Single Node HPOC Connection) for users
 5. Follow prompts to setup no SMTP notification
 6. Complete the setup wizard
+7. Make sure the setup completes without any issues
 
