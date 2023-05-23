@@ -54,7 +54,6 @@ resource "nutanix_virtual_machine" "foundationvm" {
 }
 
 resource "nutanix_virtual_machine" "ndbvm" {
-  count                = var.vm_count
   name                 = "ndbvm"
   cluster_uuid         = data.nutanix_cluster.cluster.id
   num_vcpus_per_socket = "8"
