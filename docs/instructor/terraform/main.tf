@@ -39,8 +39,8 @@ resource "nutanix_virtual_machine" "foundationvm" {
   count                = var.vm_count
   name                 = "${var.vm_foundation_prefix}-${count.index + 1}"
   cluster_uuid         = data.nutanix_cluster.cluster.id
-  num_vcpus_per_socket = "4"
-  num_sockets          = "1"
+  num_vcpus_per_socket = "1"
+  num_sockets          = "4"
   memory_size_mib      = 4096
   disk_list {
     data_source_reference = {
@@ -56,8 +56,8 @@ resource "nutanix_virtual_machine" "foundationvm" {
 resource "nutanix_virtual_machine" "ndbvm" {
   name                 = "ndbvm"
   cluster_uuid         = data.nutanix_cluster.cluster.id
-  num_vcpus_per_socket = "8"
-  num_sockets          = "1"
+  num_vcpus_per_socket = "1"
+  num_sockets          = "8"
   memory_size_mib      = 8192
   disk_list {
     data_source_reference = {
